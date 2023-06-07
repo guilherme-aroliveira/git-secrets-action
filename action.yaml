@@ -1,0 +1,9 @@
+name: git-secrets-action
+description: Runs git-secrets tools to verify credentials on code during the "git commit" command.
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'gift'
+  color: 'blue'
